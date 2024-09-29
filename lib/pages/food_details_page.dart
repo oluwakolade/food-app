@@ -58,9 +58,7 @@ class _FoodDetailsState extends State<FoodDetails> {
                 ),
               ),
 
-              const SizedBox(
-                height: 50,
-              ),
+              const Spacer(),
 
               OutlineButton(
                   text: 'Add to Cart', ontap: () => addToCart(widget.food)),

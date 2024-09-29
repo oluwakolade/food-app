@@ -72,6 +72,8 @@ class CheckoutPage extends StatelessWidget {
               ),
             ),
 
+            const Spacer(),
+
             OutlineButton(
                 text: "Checkout",
                 ontap: () {

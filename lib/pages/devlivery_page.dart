@@ -68,6 +68,7 @@ class _DevliveryPageState extends State<DevliveryPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [HeaderText(text: "John Doe"), BodyText(text: "Driver")],
           ),
+          const Spacer(),
           Row(
             children: [
               Container(

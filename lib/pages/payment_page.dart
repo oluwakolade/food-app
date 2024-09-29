@@ -85,7 +85,7 @@ class _PaymentPageState extends State<PaymentPage> {
                   });
                 },
                 formKey: formKey),
-            const SizedBox(height: 10),
+            const Spacer(),
             FillButton(text: "Pay Now", ontap: userTapped),
             const SizedBox(
               height: 25,
